@@ -5,3 +5,10 @@ El ejercicio propuesto para esta actividad de aplicación de principios **SOLID*
 ## Diagrama de clases
 
 ![diagram_solid_grasp_request_processor](esp-arqsoft-entregable-2-solid-grasp.drawio.png)
+
+## Referencias
+
+[Strategy](https://refactoring.guru/es/design-patterns/strategy)
+[Strategy Pattern](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/)
+[Abstract Factory](https://refactoring.guru/es/design-patterns/abstract-factory)
+[Builder](https://refactoring.guru/es/design-patterns/builder)

@@ -21,7 +21,7 @@ Request medicationRequest = requestBuilder
                                 .AssociateRequestType(ERequestType.MEDICATION)
                                 .AddAttachment(new Document(EDocumentType.INVOICE, "Invoice content"))
                                 .AssignAmmount(100)
-                                .AssignPatient(new Patient("John Doe", "12345678"))
+                                .AssignPatient(new Patient("John Doe", 27))
                                 .AssignProvider(new Provider("HealthCare Inc.", "87654321"))
                                 .Build();
 

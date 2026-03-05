@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using devgalop.learning.esp.solid.request.strategy;
 
 namespace devgalop.learning.esp.solid.request.facade

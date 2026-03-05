@@ -11,8 +11,8 @@ namespace devgalop.learning.esp.solid.request.validator
     {
         public bool Validate(Request request)
         {
-            return request.CreatedAt >= DateTime.Now.AddDays(-60) 
-                && request.CreatedAt <= DateTime.Now;
+            return request.CreatedAt >= DateTime.UtcNow.AddDays(-60) 
+                && request.CreatedAt <= DateTime.UtcNow;
         }
     }
 
